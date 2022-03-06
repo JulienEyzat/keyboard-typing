@@ -1,0 +1,6 @@
+<p>Exercice nº{{current_exercice_number}} : {{current_exercice_desc}}</p>
+<span *ngFor="let i of current_exercice_chars_number" id="car_0" [ngStyle]="{'background-color': current_exercice_chars_color[i]}">{{current_exercice_chars[i]}}</span>
+
+<p>
+<input type="text" #box (keyup)="check_char(box.value)" onkeydown="" id="txt" class="txt" style="background-color: inherit;">
+</p>

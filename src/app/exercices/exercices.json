@@ -1,0 +1,16 @@
+{
+    "1": {
+        "desc": "U, H, ?, ? (index et auriculaires)",
+        "colored_keys": ["u", "h"],
+        "rows": [
+            "uh uh uh uh uh uh uh hu hu hu hu hu hu hu"
+        ]
+    },
+    "2": {
+        "desc": "U, H, ?, ? (index et auriculaires)",
+        "colored_keys": ["u", "h"],
+        "rows": [
+            "uh uh uh uh uh uh uh hu hu hu hu hu hu hu"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+<div *ngFor="let i of [0, 1, 2, 3]">
+    <div *ngFor="let key of current_keyboard[i] | split item" class="key" style="background-color: inherit;">{{ key }}</div>
+
+    <div style="clear:both"></div>
+    <div [ngStyle]="{'padding-left': left_margins[i] + 'px'}" style="float: left; margin: 2px;"></div>
+</div>
+
+<div style="clear:both"></div>
+<div style="padding-left: 50px; float: left; margin: 2px;"></div>
+<div style="margin-left:55px;width:123px" class="key" id="ksp">esp</div>
