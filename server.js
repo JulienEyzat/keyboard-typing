@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-app.use(express.static(__dirname + '/dist/keyboard-typing'));
+app.use(express.static(__dirname + '/dist/dvorakdactyl'));
 app.get('/*', function(req,res) {
 res.sendFile(path.join(__dirname+
-'/dist/keyboard-typing/index.html'));});
+'/dist/dvorakdactyl/index.html'));});
 app.listen(process.env.PORT || 8080);
