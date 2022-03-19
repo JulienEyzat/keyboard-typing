@@ -1,6 +1,12 @@
+<p>
+    <input type="button" id="but_-" (click)="change_exercice('-')" value="−" style="color: grey; border-color: grey;">
+    <input type="button" id="but_+" (click)="change_exercice('+')" value="+" style="color: inherit; border-color: inherit;">
+    <input type="button" id="but_+" (click)="restart()" value="Recommencer">	
+</p>
+
 <p>Exercice nº{{current_exercice_number}} : {{current_exercice_desc}}</p>
 <span *ngFor="let i of current_exercice_chars_number" id="car_0" [ngStyle]="{'background-color': current_exercice_chars_color[i]}">{{current_exercice_chars[i]}}</span>
 
 <p>
-<input type="text" #box (keyup)="check_char(box.value)" onkeydown="" id="txt" class="txt" style="background-color: inherit;">
+<input type="text" [(ngModel)]="boxname" #box (keyup)="check_char(box.value)" onkeydown="" id="txt" class="txt" style="background-color: inherit;">
 </p>
