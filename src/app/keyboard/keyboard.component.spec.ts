@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DvorakKeyboardComponent } from './dvorak-keyboard.component';
+import { KeyboardComponent } from './keyboard.component';
 
-describe('DvorakKeyboardComponent', () => {
-  let component: DvorakKeyboardComponent;
-  let fixture: ComponentFixture<DvorakKeyboardComponent>;
+describe('KeyboardComponent', () => {
+  let component: KeyboardComponent;
+  let fixture: ComponentFixture<KeyboardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DvorakKeyboardComponent ]
+      declarations: [ KeyboardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DvorakKeyboardComponent);
+    fixture = TestBed.createComponent(KeyboardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
